@@ -1,0 +1,311 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body {
+    background-color: #f8f6f6;
+  }
+  
+  /* navbar starts */
+  #navBar {
+    /* background-color: orange; */
+    height: 50px;
+    background-color: white;
+  }
+  #navBar article {
+    /* background-color: green; */
+    height: 50px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+  }
+  #navBar div {
+    height: 50px;
+    /* border: 1px solid; */
+  }
+  #logoBlock {
+    width: 15%;
+    display: flex;
+    align-items: center;
+  }
+  #menuBlock {
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #authBlock {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #lgnBtn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+  }
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid; */
+    width: 100%;
+  }
+  li {
+    list-style: none;
+    cursor: pointer;
+  }
+  li:hover {
+    text-decoration: underline;
+  }
+  
+  #navBar img {
+    height: 54px;
+    width: 54px;
+  }
+  /* navbar ends */
+  
+  /* dropdown bar starts */
+  
+  #dropdownBar {
+    display: flex;
+  }
+  #dropdownBar select {
+    flex: 1;
+  }
+  /* dropdown bar ends */
+  
+  /* cards start */
+  #cards article {
+    display: flex;
+    justify-content: space-between;
+    height: 40vh;
+    width: 95%;
+    margin: auto;
+    column-gap: 20px;
+  }
+  #cards article div {
+    flex: 1;
+    padding: 8px;
+  }
+  #card1 {
+    background-image: url("./Assist/astronomy-1867616_640.jpg");
+    color: white;
+  }
+  #card1 h4 {
+    color: orange;
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  #card2 {
+    color: rgb(75, 46, 135);
+    background-color: white;
+    padding: 10px;
+  }
+  #card2 p {
+    font-weight: 600;
+    border-left: 6px solid rgb(75, 46, 135);
+    border-right: 6px solid rgb(75, 46, 135);
+    background: #efefef;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  #card2 h4 {
+    color: orange;
+    text-align: center;
+    text-decoration: underline;
+  }
+  #card3 {
+    background-color: white;
+  }
+  #card3 h4 {
+    color: orange;
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  #card3 p {
+    background-color: rgb(54, 44, 44);
+    color: white;
+    margin-top: 10px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #card3 button {
+    padding: 5px 12px;
+    border: none;
+    color: white;
+    background-color: blueviolet;
+    font-weight: bolder;
+  }
+  
+  #card3 div {
+    text-align: center;
+  }
+  #card3 main button {
+    background-color: blueviolet;
+    padding: 8px 12px;
+  }
+  #card3 main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 12px;
+  }
+  /* cards end */
+  
+  /* smallCards start */
+  #smallCards {
+    margin-top: 40px;
+  }
+  #smallCards article {
+    display: flex;
+    column-gap: 10px;
+    width: 95%;
+    margin: 0 auto;
+  }
+  #smallCards article div {
+    text-align: center;
+    flex: 1;
+    background-color: white;
+    box-shadow: 1px 1px 1px 3px rgb(208, 206, 206);
+  }
+  #smallCards article div h4 {
+    color: orange;
+    background-color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #smallCards article div p {
+    padding: 10px;
+  }
+  /* smallCards end */
+  
+  /* courseBlock starts */
+  
+  #courseBlock article {
+    width: 95%;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 30px;
+    box-shadow: 0px 1px 3px 1px black;
+  }
+  #courseBlock article h4 {
+    background-color: blueviolet;
+    padding: 5px;
+    color: white;
+    text-align: center;
+  }
+  #courseBlock article button {
+    padding: 7px 18px;
+    background-color: orange;
+    color: white;
+    border: none;
+    font-weight: bolder;
+    margin-bottom: 5px;
+  }
+  #courseBlock article span {
+    color: orange;
+    font-weight: bolder;
+  }
+  
+  /* courseBlock ends */
+  /* cards4 start */
+  #cards4 article {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 28px;
+    row-gap: 28px;
+  }
+  #cards4 article h4 {
+    background-color: rgb(215, 212, 212);
+    color: orange;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+  }
+  #cards4 article div {
+    box-shadow: 0px 1px 3px 1px black;
+    width: 461px;
+    height: 300px;
+  }
+  #cards4 article div p {
+    height: 220px;
+    padding: 10px;
+    line-height: 30px;
+  }
+  #cards4 article button {
+    background-color: orange;
+    padding: 8px 16px;
+    border: none;
+    display: flex;
+    flex: 1;
+    border: 1px solid white;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+  #cards4 article div main {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  /* cards4 ends */
+  
+  /* companies start */
+  #companies {
+    margin-top: 20px;
+  }
+  #companies article {
+    width: 95%;
+    margin: 0 auto;
+  }
+  #companies img {
+    height: 80px;
+    width: 200px;
+    border-bottom: 1px solid;
+  }
+  /* companies end */
+  
+  /* footer starts */
+  footer {
+    display: flex;
+    height: 50px;
+    padding: 10px;
+    color: orange;
+    font-weight: bolder;
+  }
+  /* footer ends */
+  footer #list1 {
+    background-color: white;
+    width: 30%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  footer #list2 {
+    background-color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+  }
+  
